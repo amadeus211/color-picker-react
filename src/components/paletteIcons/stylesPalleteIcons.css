@@ -1,38 +1,37 @@
 .material-ui-color-container {
-    width: 325px;
-    height: 220px;
-    background-color: #fff;
-    margin-top: 2px;
-    padding: 10px;
-    border-radius: 4px;
-  }
-  
-  .color-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 100%;
-    height: 170px;
-  }
-  
-  .color-box {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .palette-info {
-    font-size: 18px;
-    color: black;
-    font-weight: 600;
-    width: 100%;
-    float: left;
-    text-align: left;
-    margin: 5px;
-  }
-  
-  .palette-emoji {
-    display: block;
-    text-align: right;
-    margin-top: -25px;
-  }
-  
+  width: 325px;
+  height: 220px;
+  background-color: #fff;
+  margin-top: 2px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100%;
+  height: 170px;
+}
+
+.color-box {
+  width: 100%;
+  height: 100%;
+}
+
+.palette-info {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  width: 100%;
+  float: left;
+  text-align: left;
+  margin: 5px;
+}
+
+.palette-emoji {
+  display: block;
+  text-align: right;
+  margin-top: -25px;
+}
