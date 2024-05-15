@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PalettePage from "./components/palettePages/palettePage";
-import Palette from "./pallete.json"; // Імпортуємо палетки
+import Palette from "./pallete.json"; 
 
 ReactDOM.render(
   <React.StrictMode>
