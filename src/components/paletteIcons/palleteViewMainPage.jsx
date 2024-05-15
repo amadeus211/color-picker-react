@@ -1,6 +1,6 @@
 import React from "react";
 import Palette from "../../pallete.json";
-import './stylesPalleteIcons.css';
+import './stylesPalleteViewMainPage.css';
 
 export default function MaterialUIColor(props) {
 

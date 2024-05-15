@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PaletteUIColor from "./components/paletteIcons/paletteUIColor";
+import PaletteUIColor from "./components/paletteIcons/palleteViewMainPage";
 import Palette from "./pallete.json"; 
-
 import './App.css';
 
 function App() {

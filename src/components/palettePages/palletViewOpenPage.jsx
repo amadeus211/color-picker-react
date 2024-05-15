@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Palette from "../../pallete.json";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import sound from "../../sound.mp3"
-import './stylesPalletPage.css';
+import './stylesPalletViewOpenPage.css';
 
 export default function MaterialPage(props) {
     const { paletteName = "string" } = props;

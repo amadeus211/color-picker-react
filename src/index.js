@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PalettePage from "./components/palettePages/palettePage";
+import PalettePage from "./components/palettePages/palletViewOpenPage";
 import Palette from "./pallete.json"; 
 
 ReactDOM.render(
