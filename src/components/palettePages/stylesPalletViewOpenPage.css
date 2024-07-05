@@ -94,7 +94,7 @@ header {
 }
 
 .modal {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -110,6 +110,14 @@ header {
   text-align: center;
   font-size: 36px;
 
+}
+
+.modal-text {
+  font-size: 100px;
+}
+
+.modal-text-small {
+  font-size: 60px;
 }
 
 @media (max-width: 728px) {
@@ -129,15 +137,16 @@ header {
 
   }
 
-  .modal {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-    height: 120vh;
+
+
+  .modal-text {
+    font-size: 50px;
   }
+
+  .modal-text-small {
+    font-size: 20px;
+  }
+
 }
 
 @media (min-width: 729px) and (max-width: 1300px) {
@@ -157,14 +166,14 @@ header {
 
   }
 
-  .modal {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-    height: 120vh;
+
+
+  .modal-text {
+    font-size: 70px;
+  }
+
+  .modal-text-small {
+    font-size: 40px;
   }
 
 }

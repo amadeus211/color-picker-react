@@ -86,8 +86,8 @@ export default function MaterialPage(props) {
               color: modalColor.color === "#fff" ? "#c9c1c6" : "#fff",
             }}
           >
-            <h2 style={{ fontSize: "100px" }}>COPIED</h2>
-            <h2>{modalColor.name.toUpperCase()}</h2>
+            <h2 className="modal-text">COPIED</h2>
+            <h2 className="modal-text-small">{modalColor.name.toUpperCase()}</h2>
             <p>{modalColor.color}</p>
           </div>
         </div>
